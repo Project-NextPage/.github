@@ -2,8 +2,8 @@
 <div align=center>
 <br> <image width=50%, height=50%, src="https://github.com/2023-Winter-Bootcamp-Team-J/.github/assets/113340283/58b68589-fb1c-4758-908f-645308df06ac">
 
-<br>🌠 상상을 현실로, 손끝에서 펼쳐지는 우리만의 세계 🌠
-##### URL : https://nextpage.world 
+<br> 🌠 상상을 현실로, 손끝에서 펼쳐지는 우리만의 세계 🌠
+##### URL : https://nextpage-front.vercel.app
 </div>
 
 ## 📚Table of Contents
@@ -11,7 +11,6 @@
 - [Demo](#-Demo)
 - [System Architechture](#-System-Architechture)
 - [Tech stack](#-Tech-stack)
-- [ERD](#-Erd)
 - [Neo4j](#-Neo4j)
 - [API](#-API)
 - [Monitoring](#-Monitoring)
@@ -20,7 +19,7 @@
 - [Directory Structure](#-Directory-Structure)
 - [Member](#-Member)
 
-## 📑 Medium
+## 📑 (v1) Medium
 ✔️ [Korean Version](https://medium.com/@angal2310/siliconvalley-winter-bootcamp-nextpage-korean-ver-9be40743773d)
 <br>✔️ [English Version](https://medium.com/@angal2310/siliconvalley-winter-bootcamp-nextpage-english-ver-19fa610c68d2)
 
@@ -28,9 +27,6 @@
 
 ### 🪐 온보딩 페이지
 <img src="https://github.com/2023-Winter-Bootcamp-Team-J/.github/assets/113340283/fe8dcf7b-8d7c-4a76-af72-3c9418aa3a55">
-
-### 🪐 랜딩페이지
-<img src="https://github.com/2023-Winter-Bootcamp-Team-J/.github/assets/113340283/475a7014-9e16-490f-ab4e-fb68a27f02e2">
 
 ### 🪐 주제 시나리오 페이지
 <img src="https://github.com/2023-Winter-Bootcamp-Team-J/.github/assets/113340283/34943e7a-23ba-4bc6-a6cc-729061a90afe">
@@ -41,9 +37,12 @@
 ### 🪐 시나리오 페이지
 <img src="https://github.com/2023-Winter-Bootcamp-Team-J/.github/assets/113340283/a890e8ec-fb71-4453-b5bc-1bbb98a99898">
 
+### 🪐 (v2) 챕터 페이지 - 3DCarousel 적용
 
-## 💻 System Architechture
-<img alt="system architecture" src="https://github.com/2023-Winter-Bootcamp-Team-J/.github/assets/113340283/ac845bb0-7c89-44bc-85f6-15cd6a9b5648">
+![3d 캐러셀 2](https://github.com/user-attachments/assets/af2709a6-adeb-45c5-ac89-c3ce80c748aa)
+
+### 🪐 (v2) 마이 페이지 - Intersection Observer를 이용한 무한 스크롤 구현
+
 
 ## 💡 Tech stack 
 <br>
@@ -58,43 +57,26 @@
 **etc** |  <img src="https://img.shields.io/badge/Prettier-F7B93E?style=for-the-badge&logo=Prettier&logoColor=white"/> <img src="https://img.shields.io/badge/ESLint-4B32C3?style=for-the-badge&logo=ESLint&logoColor=white"/>  ![Slack](https://img.shields.io/static/v1?style=for-the-badge&message=Slack&color=4A154B&logo=Slack&logoColor=FFFFFF&label=) ![Notion](https://img.shields.io/static/v1?style=for-the-badge&message=Notion&color=000000&logo=Notion&logoColor=FFFFFF&label=) ![Figma](https://img.shields.io/static/v1?style=for-the-badge&message=Figma&color=F24E1E&logo=Figma&logoColor=FFFFFF&label=) ![Postman](https://img.shields.io/static/v1?style=for-the-badge&message=Postman&color=FF6C37&logo=Postman&logoColor=FFFFFF&label=) <img src="https://img.shields.io/badge/swagger-85EA2D?style=for-the-badge&logo=swagger&logoColor=black">
 </div>
 
-## 💾 MySQL
-<img width="1145" alt="AInterview ERD" src="https://github.com/2023-Winter-Bootcamp-Team-J/.github/assets/154852665/020371c8-2500-4dbe-93c6-fdc98ac87013">
-
 ## 💾 Neo4j
 <img src = "https://github.com/2023-Winter-Bootcamp-Team-J/.github/assets/113340283/4d9d20a3-cbf7-4fd2-8971-eafe98a8fef7" width=80% height="90%">
 
 ## 📚 API
 <!-- <details> -->
-swagger
+swagger (v1)
 <div markdown="1">
-  
 <img width="1307" alt="form gptanswer API" src="https://github.com/2023-Winter-Bootcamp-Team-J/.github/assets/154852665/2c798336-4334-4fed-bd1a-27fd8bd86d60">
-  
 </div>
 
 ## 📊 Monitoring
-Grafana & Prometheus & ELK
-
-**Django** |**Node exporter** |
-:-----:|:-----:
-<img src = "https://github.com/2023-Winter-Bootcamp-Team-J/.github/assets/154852665/6eb551ea-6ea2-4f52-ac79-932549b0a783" width=90%>|<img src = "https://github.com/2023-Winter-Bootcamp-Team-J/.github/assets/154852665/79e5d9f0-3317-4457-b041-71090cc605a9" width=100% >
 
 <table>
   <tr>
-    <td colspan="2" align="center"><b>cAdvisor</b></td>
+    <th>K6</th>
+    <th>Prometheus</th>
   </tr>
   <tr>
-    <td align="center"><img src="https://github.com/2023-Winter-Bootcamp-Team-J/.github/assets/154852665/eb342c43-a67e-4fd9-8557-2a65b9f854c2" width="100%" height="100%"></td>
-  </tr>
-</table>
-
-<table>
-  <tr>
-    <td colspan="2" align="center"><b>ELK</b></td>
-  </tr>
-  <tr>
-    <td align="center"><img src="https://github.com/2023-Winter-Bootcamp-Team-J/.github/assets/113340283/e5e1299d-0136-485c-9822-87c9903c9333" width="100%" height="100%"></td>
+    <td width="50%"><img src="https://github.com/user-attachments/assets/3d899780-7248-42ba-87ae-cbd68dcd32be" width="100%"></td>
+    <td width="50%"><img src="https://github.com/user-attachments/assets/f4e13bb7-2521-4461-a631-1511d4e6948f" width="100%"></td>
   </tr>
 </table>
 
