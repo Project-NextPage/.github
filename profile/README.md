@@ -42,7 +42,8 @@
 ![3d 캐러셀 2](https://github.com/user-attachments/assets/af2709a6-adeb-45c5-ac89-c3ce80c748aa)
 
 ### 🪐 (v2) 마이 페이지 - Intersection Observer를 이용한 무한 스크롤 구현
-
+<img src="https://github.com/user-attachments/assets/3a510608-c08b-4242-ad33-8cec7c0891cc" width="100%" />
+<br>
 
 ## 💡 Tech stack 
 <br>
