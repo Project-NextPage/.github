@@ -272,6 +272,7 @@ $ docker-compose -f docker-compose.yml -f docker-compose.monitoring.yml up -d --
         </td>
         <td width="150" align="center">
             Backend<br>
+            Frontend<br>
             DevOps<br>
         </td>
         <td width="150" align="center">
